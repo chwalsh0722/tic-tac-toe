@@ -34,3 +34,43 @@ body {
   font-weight: bold;
   padding-top: 35px;
 }
+
+.button-container {
+  width: 500px;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 64px;
+}
+
+.font-24px {
+  font-size: 24px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.basic-font {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.game-button {
+  font-size: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+  height: 64px;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.blue-background {
+  background-color: rgb(0, 132, 255);
+}
+
+.lightgray-background {
+  background-color: rgb(180, 178, 178);
+}
